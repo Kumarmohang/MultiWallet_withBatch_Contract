@@ -1,0 +1,13 @@
+// -----------------------------------------------------------------------------
+// When having several themes, this file contains everything related to the
+// default one.
+// -----------------------------------------------------------------------------
+
+h1,
+h2,
+h3,
+h4 {
+  &.ant-typography {
+    color: #111d3c;
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "name": "pb-payment-gateway",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@reduxjs/toolkit": "^1.8.5",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@wagmi/core": "^0.10.6",
+    "@walletconnect/web3-provider": "^1.8.0",
+    "@web3modal/ethereum": "^2.2.2",
+    "@web3modal/react": "^2.2.2",
+    "antd": "^4.23.0",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.1",
+    "history": "^5.3.0",
+    "js-big-decimal": "^1.3.12",
+    "moment": "^2.29.4",
+    "normalize.css": "^8.0.1",
+    "query-string": "^7.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "redux-devtools-extension": "^2.13.9",
+    "sass": "^1.54.8",
+    "typescript": "^4.8.2",
+    "wagmi": "^0.12.6",
+    "web-vitals": "^2.1.4",
+    "web3modal": "^1.9.12"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint ./src --fix --ext js --ext scss --ext jsx",
+    "prepare": "husky install",
+    "lint-staged": "lint-staged"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.11.57",
+    "@types/react": "^18.0.18",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-redux": "^7.1.24",
+    "@types/sass": "^1.43.1",
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.6",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json}": [
+      "prettier --write",
+      "eslint --fix src/"
+    ]
+  }
+}

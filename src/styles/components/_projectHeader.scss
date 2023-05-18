@@ -1,0 +1,318 @@
+@charset 'UTF-8';
+.project {
+  height: 100vh;
+  .project-header {
+     padding:2% 3%;
+    
+    .myProfile {
+      text-align: left;
+      &-subHeadings {
+        padding-left: 6px;
+      }
+      &-link {
+        color: black;
+        // text-decoration: none;
+      }
+    }
+
+    .project-crumbItem {
+      font-size: 18px;
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+    .project-crumbItem :link {
+      text-decoration: none;
+    }
+    .ant-breadcrumb-separator {
+      padding-top: 18px;
+      font-size: 22px;
+      font-weight: bold;
+    }
+    .ant-breadcrumb ol {
+      align-items: center;
+    }
+  }
+  .project-header1{
+    padding: 4% 3%;
+    .myProfile {
+        text-align: left;
+    
+        &-subHeadings {
+          padding-left: 6px;
+        }
+    
+        &-link {
+          color: black;
+          // text-decoration: none;
+        }
+      }
+    
+      .project-crumbItem {
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: capitalize;
+      }
+    
+      .project-crumbItem :link {
+        text-decoration: none;
+      }
+    
+      .ant-breadcrumb-separator {
+        padding-top: 18px;
+        font-size: 22px;
+        font-weight: bold;
+      }
+    
+      .ant-breadcrumb ol {
+        align-items: center;
+      }
+  }
+
+  .projectList-container {
+    padding: 2% 3%;
+    .projectList-form {
+      // padding: 20px 0px;
+
+      .ant-btn-primary {
+        background-color: #d94521;
+        border-color: #d94521;
+        border-radius: 5px;
+      }
+    }
+
+    .project-category {
+      padding: 8px 0px;
+      .img-heading {
+        display: flex;
+        .img_content {
+          display: flex;
+          flex-direction: column;
+          // margin-left: 20px;
+        }
+        .img_content div {
+          //font-weight: bold;
+          padding-top: 5px;
+          color: #a39f9f;
+          font-size: 16px;
+          text-align: left;
+        }
+        .img_content h3 {
+          padding-top: 10px;
+          text-align: left;
+          font-weight: bold;
+          font-size: 16px;
+        }
+                .img_content1 div {
+                  //font-weight: bold;
+                  padding-top: 5px;
+                  color: #a39f9f;
+                  font-size: 16px;
+                  text-align: right;
+                }
+        
+                .img_content1 h3 {
+                  padding-top: 10px;
+                  text-align: right;
+                  font-weight: bold;
+                  font-size: 16px;
+                }
+      }
+      .ant-comment-content-author > span {
+        font-size: 16px;
+        font-weight: bold;
+        color: black;
+      }
+      .avatar-subHeading {
+        text-align: left;
+        color: #a39f9f;
+        font-size: 12px;
+      }
+      .project-table-form {
+        padding: 20px 10px 0px 0px;
+        .ant-btn-primary {
+          background-color: #d94521;
+          border-color: #d94521;
+          border-radius: 5px;
+        }
+        .project-table-date {
+          margin-right: -7px;
+          //width: 190px;
+          border-radius: 5px;
+        }
+        .total-amount{
+          font-size: 16px;
+        }
+        .download-invoices-btn {
+          background-color: #005cf6;
+          border-color: #005cf6;
+          margin-right: -7px;
+        }
+        .project-table-tabs {
+          margin-left: 48px;
+          color: #a39f9f;
+          .ant-tabs-nav .ant-tabs-ink-bar {
+            height: 4px;
+            border-radius: 2px;
+          }
+        }
+      }
+      .project-navigate-menu {
+        margin-bottom: 15px;
+        .List-menu {
+          display: flex;
+          justify-content: space-between;
+          border: none;
+          font-size: 18px;
+          color: #a39f9f;
+          // background-color: red;
+        }
+      }
+
+      .transaction-invoice-table {
+        .ant-table-tbody > tr > td {
+          font-size: 16px;
+          color: #000;
+          cursor: auto !important;
+        }
+      }
+      .project-table {
+        .ant-table-thead > tr > th {
+          background-color: #eef4fc;
+          color: #000;
+          font-size: 16px;
+          font-weight: bold;
+        }
+
+        .ant-table-thead > tr > th:first-child {
+          border-radius: 5px 0px 0px 5px !important;
+        }
+        .ant-table-thead > tr > th:nth-child(8) {
+          border-radius: 0px 5px 5px 0px !important;
+        }
+
+        .ant-table-tbody > tr > td {
+          font-size: 16px;
+          color: #000;
+          cursor: pointer;
+        }
+        .pending-invoice-total{
+          padding-left: 50px;
+        }
+
+        .ant-table-thead
+          > tr
+          > th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan]):before {
+          width: 0;
+        }
+        .project-table-status {
+          display: flex;
+          align-items: center;
+          background-color: #eef4fc;
+          color: #005cf6;
+          font-weight: lighter;
+          border: none;
+          border-radius: 5px;
+          padding: 0px 15px;
+          font-size: 16px;
+          cursor: default;
+          .status-dot {
+            height: 5px;
+            width: 5px;
+            background-color: #005cf6;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 5px;
+          }
+        }
+        .project-table-status-paid {
+          text-decoration: none;
+          cursor: pointer;
+        }
+        .project-btn {
+          border: none;
+          border-radius: 5px;
+          background-color: #b3b3b3;
+          color: white;
+        }
+        .project-btn-approve {
+          border: none;
+          border-radius: 5px;
+          background-color: #5cb85c;
+          color: white;
+        }
+        .project-btn-primary {
+          border: none;
+          border-radius: 5px;
+          background-color: #1890ff;
+          color: white;
+        }
+      }
+    }
+    .projectList-header {
+      background-color: #eef4fc;
+
+      border-radius: 5px;
+      padding: 20px;
+      & .category {
+        text-align: left;
+      }
+      .header-title {
+        font-size: 16px;
+      }
+      & .ant-typography {
+        color: #000;
+        font-weight: bold;
+      }
+    }
+
+    .projectList-items {
+      background-color: white;
+      margin-top: 15px;
+      padding: 20px;
+      border-radius: 5px;
+      border: none;
+      // font-weight: bold;
+      font-size: 16px;
+      display: inline;
+      .category-item {
+        text-align: left;
+        word-wrap: break-word;
+        
+      }
+      .category-item img {
+        margin-right: 20px;
+      }
+      .dates {
+        color: #000;
+        font-weight: 300;
+      }
+      .invoice-count {
+        color: #db4723;
+      }
+      .pending-invoices {
+        color: #005cf6;
+      }
+      .paid-invoices {
+        color: #18b578;
+        margin-left: 2em;
+      }
+    }
+    .projectList-items1{
+      background-color: white;
+        margin-top: 15px;
+        padding: 20px;
+        border-radius: 5px;
+        border: none;
+        // font-weight: bold;
+        font-size: 14px;
+        display: block;
+    }
+  }
+  ::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  #linkTag {
+    text-decoration: none;
+  }
+}

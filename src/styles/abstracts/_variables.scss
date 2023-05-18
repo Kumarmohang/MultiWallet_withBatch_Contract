@@ -1,0 +1,121 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/// Regular font family
+/// @type List
+$text-font-stack: "Open Sans", "Helvetica Neue Light", "Helvetica Neue",
+  "Helvetica", "Arial", sans-serif !default;
+
+/// Code (monospace) font family
+/// @type List
+$code-font-stack: "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
+  "Monaco", monospace !default;
+
+/// Copy text color
+/// @type Color
+$text-color: #111d3c !default;
+
+/// Main brand color
+/// @type Color
+$brand-color: rgb(229, 0, 80) !default;
+
+/// Light grey
+/// @type Color
+$light-grey: rgb(237, 237, 237) !default;
+
+/// Medium grey
+/// @type Color
+$mid-grey: rgb(153, 153, 153) !default;
+
+/// Dark grey
+/// @type Color
+$dark-grey: rgb(68, 68, 68) !default;
+
+/// Container's maximum width
+/// @type Length
+$max-width: 1180px !default;
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: (
+  "small": 320px,
+  "medium": 768px,
+  "large": 1024px,
+) !default;
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'http://cdn.example.com/assets/';
+$base-url: "/assets/" !default;
+
+$brand-border: #eaeaea;
+$brand-txt: #4a4a4a;
+$blk-bg: #f8f8f8;
+$blk-table-head-bg: #ededed;
+$blk-heading-color: #080202;
+$brand-color: #0087fc;
+$heading-color: #121212;
+$brand-secondary-color: #dfecf8;
+$scrollbar-background: #d8d8d8;
+
+$clr-black: #121212;
+$clr-black-dark: #000000;
+$clr-lightgray: #f7f6f8;
+$clr-white: #ffffff;
+$clr-blueberry: #442c79;
+$clr-blbrydark: #351e6a;
+$clr-green: #00b54c;
+$clr-gold: #f3c525;
+$clr-lightgreen: #c1d3ae;
+
+//default color
+$clr-grey: #9b9b9b;
+$clr-dark-grey: #4e4d4d;
+$clr-medium-grey: #cccccc;
+$clr-light-grey: #f3f3f3;
+$clr-blue: #0087fc;
+$clr-red: #f69393;
+$clr-skyblue: #96c6dc;
+$clr-orange: #f34325;
+$table-header: #bab4b4;
+$gradient-middle-color: #dddddd;
+$gradient-top-color: #eeeeee;
+$clr-purple: #bd10e0;
+$clr-orange: #f5a623;
+$clr-required: #f69393;
+$clr-select-active: #0087fc;
+
+$checkbox-checked-label-color: #333;
+$checkbox-checked-label-tick-color: #fff;
+$checkbox-checked-box-background: #1ea7fd;
+$checkbox-checked-box-border: #1ea7fd;
+$checkbox-label-color: #777;
+$checkbox-box-border: rgba(151, 151, 151, 0.3);
+$checkbox-checked-label-tick-width: 0.12em 0.12em 0 0;
+
+//chatbox
+$clr-chatbox: rgb(56, 130, 254);
+$clr-chatbtn: #0087fc;
+$clr-chatbtn-boxshadow: rgba(0, 0, 0, 0.6);
+
+//fsch
+$app-color: #19479c;
+$white: #ffffff;
+$table-header-color: #d8d8d8;
+$axis-color: rgba(50, 60, 90, 0.6);
+$subtitle-color: #939698;
+$filter-title: #393939;
+$button-color-green: #008a5c;
+
+$toggle-background-color: #ccc;
+$toggle-circle-background-color: #f2f2f3;
+$toggle-active-background-color: #6597f6;
+$toggle-active-box-shadow: #f2f2f3;
+
+$switch-border-color: rgba(150, 150, 150, 0.3);
+$switch-item-color: rgb(98, 89, 89);
+$switch-active-item-color: rgb(255, 255, 255);
+$switch-active-item-background: #6597f6;

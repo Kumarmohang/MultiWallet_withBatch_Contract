@@ -1,0 +1,12 @@
+@use "../abstracts/variables";
+@use "./fonts";
+
+/**
+ * Basic typography style for copy text
+ */
+body {
+  color: variables.$text-color;
+  @include fonts.font-family(opensans-regular);
+  font-size: 12px;
+  background: #ffffff;
+}

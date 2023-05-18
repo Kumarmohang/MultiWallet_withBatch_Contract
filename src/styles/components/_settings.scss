@@ -1,0 +1,119 @@
+.settingPage {
+  height: 100vh;
+  .project-header {
+    padding:2% 2% 2% 5%;
+    .myProfile {
+      text-align: left;
+      &-subHeadings {
+        // padding-left: 6px;
+      }
+      &-link {
+        color: black;
+        text-decoration: none;
+      }
+    }
+    .project-crumbItem {
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .ant-breadcrumb-separator {
+      padding-top: 18px;
+      font-size: 22px;
+      font-weight: bold;
+    }
+    .ant-breadcrumb ol {
+      align-items: center;
+    }
+  }
+  .profile-tabs {
+    padding: 15px 60px;
+    .profile-active-tabs {
+      color: #a39f9f;
+
+      .ant-tabs-nav .ant-tabs-ink-bar {
+        height: 4px;
+        border-radius: 2px;
+      }
+    }
+  }
+  .profile-section {
+    padding: 20px 60px;
+    .myProfile-input {
+      width: 545px;
+
+      border-radius: 5px;
+    }
+    .myProfile-btn-save {
+      border: none;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+    .btn-logout {
+      color: #1890ff;
+      margin-top: 30px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  }
+  .companyProfile-input {
+    width: 545px;
+    text-align: left;
+    border-radius: 5px;
+  }
+  .apikey-input {
+    // padding: 40px 0px;
+    width: 450px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .apikey-label {
+    // padding: 40px 0px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 20px;
+    width: 200px;
+    text-align: left;
+  }
+  .border-less-input {
+    text-align: left;
+    border-right: "none";
+    border-radius: 5px 0 0 5px !important;
+  }
+
+  .border-less-copy-btn {
+    border-left: none;
+    width: 100px;
+    border-radius: 0px 5px 5px 0px !important;
+  }
+  .border-less-input:focus {
+    border-color: #ccc !important;
+    border-right: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  .border-less-input:hover {
+    border-color: #ccc;
+    border-right: none;
+  }
+  .border-less-copy-btn:hover {
+    border-color: #ccc;
+  }
+  .border-less-copy-btn:focus {
+    border-color: #ccc;
+  }
+  .generate-key-btn {
+    padding: 0px 46px;
+    border-radius: 5px;
+  }
+  .generate-key-btn-left{
+    padding: 0px 27px;
+      border-radius: 5px;
+  }
+  .document-key-btn {
+    padding: 0px 40px;
+    border-radius: 5px;
+  }
+  .ant-col {
+    margin-right: 10px;
+  }
+}

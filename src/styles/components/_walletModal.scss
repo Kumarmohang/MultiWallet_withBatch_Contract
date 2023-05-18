@@ -1,0 +1,43 @@
+.wallet-modal {
+  &-title {
+    padding: 10px 0px;
+  }
+  &-title > strong {
+    font-size: 20px;
+    margin-left: 5px;
+    align-items: center;
+  }
+  &-title > p {
+    font-size: 14px;
+    padding-top: 20px;
+    margin-bottom: -35px;
+  }
+  .ant-modal-content {
+    border-radius: 20px;
+  }
+  .ant-modal-header {
+    border-radius: 20px 20px 0 0;
+    border: none;
+  }
+  .wallet-gap {
+    padding: 15px 15px;
+    border-radius: 200px;
+    cursor: pointer;
+  }
+  .wallet-disable{
+    padding: 15px 15px;
+      border-radius: 200px;
+      cursor: not-allowed;
+  }
+
+  .wallet-gap:hover {
+    padding: 15px 15px;
+    border-radius: 200px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .wallet-gap > strong {
+    margin-left: 12px;
+  }
+}
